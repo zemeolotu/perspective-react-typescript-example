@@ -203,13 +203,13 @@
   resolved "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.3.tgz#90420f9f9c6d3987f176a19a7d8e764271a2f55d"
   integrity sha512-Fxt+AfXgjMoin2maPIYzFZnQjAXjAL0PHscM5pRTtatFqB+vZxAM9tLp2Optnuw3QOQC40jTNeGYFOMvyf7v9g==
 
-"@finos/perspective-viewer-d3fc@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@finos/perspective-viewer-d3fc/-/perspective-viewer-d3fc-0.10.0.tgz#9c4005c5b25e2571c12358be43c7175e38167e0f"
-  integrity sha512-mdZb2PZ1FfiutgaIyv93l3lFMCoRGwucojjdzUPhDVcqu+pwdcgdw+hSsk6/zudT1SzJbleN56mXDgvUFcvNtA==
+"@finos/perspective-viewer-d3fc@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@finos/perspective-viewer-d3fc/-/perspective-viewer-d3fc-0.10.1.tgz#49e7ee31ffcba91873ec146e2828eb56ca797b17"
+  integrity sha512-0zvMKzt1U2M7PC0gE5KepjEa3/3EYv8UBZvEUZZ04kuU9fqeaJ65A60LHiwrQsMgec05Qb5OymmlXaQ6C1GWPg==
   dependencies:
-    "@finos/perspective" "^0.10.0"
-    "@finos/perspective-viewer" "^0.10.0"
+    "@finos/perspective" "^0.10.1"
+    "@finos/perspective-viewer" "^0.10.1"
     babel-runtime "^6.26.0"
     chroma-js "^1.3.4"
     core-js "^3.6.4"
@@ -218,23 +218,22 @@
     d3fc "14.0.40"
     gradient-parser "0.1.5"
 
-"@finos/perspective-viewer-datagrid@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-0.10.0.tgz#9097071f539e1753630099e2eacec4ef74e43f76"
-  integrity sha512-icZQ3gmH+Fz7iDTPVAPOg96lyc1gL2zZd9hR6s9ofVn/kxizSW7aLA5oOKOXRhBt6dIGikt0cqOOSA/pW2gFZg==
+"@finos/perspective-viewer-datagrid@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-0.10.1.tgz#51681fc0390c2324616bdfae076664e8f17029d5"
+  integrity sha512-PZ6vMV99fhxfNTgS4WtnpquLhKfABXAOVk+bAo9UDII3fiMMr+3OCz3+dKugwI4/Na2Xzu9+4ORT/B1n8nwkpg==
   dependencies:
-    "@finos/perspective" "^0.10.0"
-    "@finos/perspective-viewer" "^0.10.0"
+    "@finos/perspective" "^0.10.1"
+    "@finos/perspective-viewer" "^0.10.1"
     chroma-js "^1.3.4"
-    regular-table "=0.4.0"
+    regular-table "=0.4.1"
 
-"@finos/perspective-viewer@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@finos/perspective-viewer/-/perspective-viewer-0.10.0.tgz#b8b3270126da54c100205044d3097015a172dd49"
-  integrity sha512-jF5jtaPHMVcUr8FmtVaSQgopDu1zj3q3QkGmpwO/Jv32qfdIkd/HfE8BM8BzDgiVfFIv4jzSQeaIn1a8JBt6Ag==
+"@finos/perspective-viewer@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@finos/perspective-viewer/-/perspective-viewer-0.10.1.tgz#4bf49939794ed48f819523a947a834e060fe34f8"
+  integrity sha512-L7twkSIeIFCwGrLXTWLXoKbA1vAkZAvo2Um2UNOQ1AOV0JdQR1Qv9cvyXi4puw6MnzUHr1YfmPotdjc85djYKQ==
   dependencies:
-    "@babel/runtime" "^7.8.4"
-    "@finos/perspective" "^0.10.0"
+    "@finos/perspective" "^0.10.1"
     "@types/react" "^16.8.6"
     awesomplete "^1.1.2"
     core-js "^3.6.4"
@@ -246,24 +245,41 @@
     monaco-editor "0.24.0"
     monaco-editor-webpack-plugin "3.1.0"
 
-"@finos/perspective-webpack-plugin@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@finos/perspective-webpack-plugin/-/perspective-webpack-plugin-0.10.0.tgz#c084fb033028dc9621b1b4aeebc08fb0cc8a1bad"
-  integrity sha512-8T4jMnEqMqFaPxedTSz21H9SZ7NtM+7NMqkG6K0HqajMF1OXWZkNadliZk7cS/JK+Aezy59gRLfx0z0Wgnw1RA==
+"@finos/perspective-webpack-plugin@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@finos/perspective-webpack-plugin/-/perspective-webpack-plugin-0.10.1.tgz#8d4657e8b83560667c9d13179f947e2f6a9ad71d"
+  integrity sha512-Qt5dEbdSueME+6byFRi0je7BpSl+C9H6rhgD0DOw+5QrqCI08YI/JeombHmFR04kNZQ1db382Lueh4kGniBhSw==
   dependencies:
     "@webpack-contrib/schema-utils" "^1.0.0-beta.0"
+    arraybuffer-loader "^1.0.2"
     css-loader "^0.28.7"
     cssnano "^4.1.10"
     cssnano-preset-lite "^1.0.1"
     file-loader "^2.0.0"
     postcss "^8.2.6"
     postcss-loader "^4.1.0"
+    string-replace-loader "^3.0.1"
     worker-loader "^3.0.7"
 
-"@finos/perspective@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@finos/perspective/-/perspective-0.10.0.tgz#7eea7701e533dc3ee52e33760ca06e3b77328b32"
-  integrity sha512-PmsUiaOjChJaivDxGLNH8vAw8lG98OLlPjKCvci3iAFAEclGKMhSkHP/qYDU+NUZSPqsvk2Rf66TFsK8aiy/jg==
+"@finos/perspective-workspace@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@finos/perspective-workspace/-/perspective-workspace-0.10.1.tgz#f05b19d000ce5c5c3c375ebba5e7f2df0b139fee"
+  integrity sha512-HT2+2PKQEbTZCtmKY6AVXOpqIzRhTBTcAkCU1YNlXVXJHDTlBgbxolop8rK+wqelZ4ts6ZnWS8eeFw6Pa2Xa8Q==
+  dependencies:
+    "@finos/perspective-viewer" "^0.10.1"
+    "@lumino/algorithm" "^1.2.0"
+    "@lumino/commands" "^1.7.2"
+    "@lumino/domutils" "^1.1.4"
+    "@lumino/messaging" "^1.3.0"
+    "@lumino/virtualdom" "^1.2.0"
+    "@lumino/widgets" "^1.9.3"
+    core-js "^3.6.4"
+    lodash "^4.17.4"
+
+"@finos/perspective@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@finos/perspective/-/perspective-0.10.1.tgz#457cdf2749dda3ab386d1c935811627a13778d96"
+  integrity sha512-3VcYz44bvX7klB72BhAOMEQFO79e3IYSCh/NlxRn3zzMUSZA/zqEn30nrsJ2n4ntR3m5fmP2LKRd+QyREvyG9w==
   dependencies:
     "@babel/runtime" "^7.8.4"
     core-js "^3.6.4"
@@ -274,6 +290,106 @@
     text-encoding-utf-8 "^1.0.2"
     tslib "^1.9.3"
     ws "^6.1.2"
+
+"@lumino/algorithm@^1.2.0", "@lumino/algorithm@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.npmjs.org/@lumino/algorithm/-/algorithm-1.6.2.tgz#c68968d04857f7fbe9f4856ab3078aee7694868e"
+  integrity sha512-4QlhUduCKjoHqWjYRayDZvd5kgrj2EWm4ELFC1IIcQ8SuIUPCmyAIsIVx5l76lI3hUkmHvVl411s9qWLQuiX+A==
+
+"@lumino/collections@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.npmjs.org/@lumino/collections/-/collections-1.6.2.tgz#9cbfd54e81aefbc1693d8dbc2b3b45a2c011b8cd"
+  integrity sha512-keStZ5Vv4iua6EZAY1RouDmGe7JJq46NQSbw96Q1AvLqFPwLl4ll3cyPBlnIgMsJqeHUP/UZ7ef7Akf744pLBQ==
+  dependencies:
+    "@lumino/algorithm" "^1.6.2"
+
+"@lumino/commands@^1.15.2", "@lumino/commands@^1.7.2":
+  version "1.15.2"
+  resolved "https://registry.npmjs.org/@lumino/commands/-/commands-1.15.2.tgz#9543f80667fac50765466f4470c3915c580360de"
+  integrity sha512-H4FUJxF4lM3hPkGtM8mgmqEOwOUZtOkcqacH6Emcw7dyeniic1q1czsQYxuXixz1hrBO/2t51qZGwo2ehq/RnA==
+  dependencies:
+    "@lumino/algorithm" "^1.6.2"
+    "@lumino/coreutils" "^1.8.2"
+    "@lumino/disposable" "^1.7.2"
+    "@lumino/domutils" "^1.5.2"
+    "@lumino/keyboard" "^1.5.2"
+    "@lumino/signaling" "^1.7.2"
+    "@lumino/virtualdom" "^1.11.2"
+
+"@lumino/coreutils@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.npmjs.org/@lumino/coreutils/-/coreutils-1.8.2.tgz#e303a3b12a319f0f304b835269ca85319346d219"
+  integrity sha512-IPlQEU9yJ/ysaEYiTqb25xKnKgAANiRy5huC2fPWuJtNfhjl8fyWsj8knTJC6XmI09NzhP8ZAyMAZjTFPYnyaw==
+
+"@lumino/disposable@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.npmjs.org/@lumino/disposable/-/disposable-1.7.2.tgz#86c30bee7335bc624881195501de58a074195b34"
+  integrity sha512-3+1sVpO0X4Ymh/VcHgy/0aM6VrWecSPDDtJnyEzrKJNvVj582FnD3Ftej5hx5yc4DGjOJ4U7Ue7zkIKc+vOxTw==
+  dependencies:
+    "@lumino/algorithm" "^1.6.2"
+    "@lumino/signaling" "^1.7.2"
+
+"@lumino/domutils@^1.1.4", "@lumino/domutils@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.npmjs.org/@lumino/domutils/-/domutils-1.5.2.tgz#a0130967b95aa4a81cd7abc21db98e2f3416ce51"
+  integrity sha512-2Hd3Bp6BObNwOaejeJUOAQcwjqSwORuDCmyJyqKu/5MnX7aQqPAMFtnNvVufcKnxV8lBej3fhV3zZYfChYlFqA==
+
+"@lumino/dragdrop@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.npmjs.org/@lumino/dragdrop/-/dragdrop-1.10.2.tgz#09f539873c8a35e0394aa4b4aca3db2825d57cf1"
+  integrity sha512-QWichLgP5FW1UBF5wMADXxgXy/gz3ZGgpZKdaTyrkEN/Zwpz7FquH0f/JE1XXKkmlmHi/x8YTfHX50ImHXTwsQ==
+  dependencies:
+    "@lumino/coreutils" "^1.8.2"
+    "@lumino/disposable" "^1.7.2"
+
+"@lumino/keyboard@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.npmjs.org/@lumino/keyboard/-/keyboard-1.5.2.tgz#1d937cf071b16a6dbed3a2a5876e0892a504f9df"
+  integrity sha512-/tme1dGnLkqWuTTBkvOaywDCgt2dyYwIcVo3eCTHpJIG4pPactGlMyd7PypgT3NXBlNxEvZnQSGzYCOXP1/2IQ==
+
+"@lumino/messaging@^1.3.0", "@lumino/messaging@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.npmjs.org/@lumino/messaging/-/messaging-1.7.2.tgz#568f38d4fa5ef3cecef24cde3f85e582b038f5ed"
+  integrity sha512-nkhNiL4ZZEmf5M+zxPJgV7M+LJ3wUHMX1hnFsqcvrBkLBPkqZVowDzEcr0oN4UOUuHaMJehjdiN9SG0T5chosQ==
+  dependencies:
+    "@lumino/algorithm" "^1.6.2"
+    "@lumino/collections" "^1.6.2"
+
+"@lumino/properties@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.npmjs.org/@lumino/properties/-/properties-1.5.2.tgz#aa3211552ddb2e9566f90cd75f074be53879ad6e"
+  integrity sha512-rrlbO3mi6wXe5OJxnqhRv8oQdGdjqPwtP3a6M+AdHXG71yV1R5DQjE6ez1z9nLJP5wYFlITcxqOU+xq7FDLFGQ==
+
+"@lumino/signaling@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.npmjs.org/@lumino/signaling/-/signaling-1.7.2.tgz#76eec02b6edf333b804b232fdd6cc5aff669076a"
+  integrity sha512-HnEDrvLPE3HiLzZuXMU2uULp5f15QsPl6pwOpl8q9D/dhKVytPH3j04J+pl4SO4NlbtTktIWqVvSDWl2WbMWZg==
+  dependencies:
+    "@lumino/algorithm" "^1.6.2"
+
+"@lumino/virtualdom@^1.11.2", "@lumino/virtualdom@^1.2.0":
+  version "1.11.2"
+  resolved "https://registry.npmjs.org/@lumino/virtualdom/-/virtualdom-1.11.2.tgz#131be2b9f2fcb443722cc07779be8af3cf675abc"
+  integrity sha512-lTvQObA5FBglIuD85aZo7bF1VtkrxB5jEQ8PxlnsVSH/lgE6SWA9syfCIByMxhFSne4y5yD7SbICUViJF4ht+w==
+  dependencies:
+    "@lumino/algorithm" "^1.6.2"
+
+"@lumino/widgets@^1.9.3":
+  version "1.26.2"
+  resolved "https://registry.npmjs.org/@lumino/widgets/-/widgets-1.26.2.tgz#f8833af7112558d270e1931b05a55c6341ffae7f"
+  integrity sha512-/UfEGznReDUXyKw0qlaDgNRMO2sNJ/vJ3kajznGMep+FrMVjIHEtMXtUbzlRasyg6CN88zS5G6wD1DdZF3ZtSg==
+  dependencies:
+    "@lumino/algorithm" "^1.6.2"
+    "@lumino/commands" "^1.15.2"
+    "@lumino/coreutils" "^1.8.2"
+    "@lumino/disposable" "^1.7.2"
+    "@lumino/domutils" "^1.5.2"
+    "@lumino/dragdrop" "^1.10.2"
+    "@lumino/keyboard" "^1.5.2"
+    "@lumino/messaging" "^1.7.2"
+    "@lumino/properties" "^1.5.2"
+    "@lumino/signaling" "^1.7.2"
+    "@lumino/virtualdom" "^1.11.2"
 
 "@types/d3-selection@1.0.10":
   version "1.0.10"
@@ -661,6 +777,13 @@ array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
+
+arraybuffer-loader@^1.0.2:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/arraybuffer-loader/-/arraybuffer-loader-1.0.8.tgz#3e326be5cdf6454782362823d43a8c33bb1dd276"
+  integrity sha512-CwUVCcxCgcgZUu2w741OV6Xj1tvRVQebq22RCyGXiLgJOJ4e4M/59EPYdtK2MLfIN28t1TDvuh2ojstNq3Kh5g==
+  dependencies:
+    loader-utils "^1.1.0"
 
 assign-symbols@^1.0.0:
   version "1.0.0"
@@ -5024,10 +5147,10 @@ regexp.prototype.flags@^1.2.0:
     call-bind "^1.0.2"
     define-properties "^1.1.3"
 
-regular-table@=0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/regular-table/-/regular-table-0.4.0.tgz#41d769e9dcd6a3a6c4d2f4832132562d88a63515"
-  integrity sha512-O44E81FcEnGZjWE/hilOZPODo3dAzbT42cYU8xosicTiAindrwbpkCF6h9seg8Fw1L8eqziugCoODPe5UnarWA==
+regular-table@=0.4.1:
+  version "0.4.1"
+  resolved "https://registry.npmjs.org/regular-table/-/regular-table-0.4.1.tgz#808a683650d45567cd6eafbad9d4935f869a2d6b"
+  integrity sha512-POWutYgFTbrDXArkIcp3d14lrMevTi/JrnvDlkhj/wCNvIarPS6ET7MzCtUOmJ2eZPxjk+/hZI15364RLZ9BeQ==
 
 relateurl@^0.2.7:
   version "0.2.7"
@@ -5530,7 +5653,7 @@ strict-uri-encode@^1.0.0:
   resolved "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
   integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
 
-string-replace-loader@^3.0.3:
+string-replace-loader@^3.0.1, string-replace-loader@^3.0.3:
   version "3.0.3"
   resolved "https://registry.npmjs.org/string-replace-loader/-/string-replace-loader-3.0.3.tgz#bdbb4c9879ebb1d88185acd34afc4fb62334b433"
   integrity sha512-8c26Dl6H9XmKNj3mFBvaUYR7ImOxQ4YRBFuUju78wXpa1cDpyDYvKmqGg8mfkxdYexQ/BBogB7PELlLnmR08nw==
