@@ -10,17 +10,17 @@
     "keywords": [],
     "license": "Apache-2.0",
     "dependencies": {
-        "@finos/perspective": "^0.10.1",
-        "@finos/perspective-viewer": "^0.10.1",
-        "@finos/perspective-viewer-d3fc": "^0.10.1",
-        "@finos/perspective-viewer-datagrid": "^0.10.1",
-        "@finos/perspective-workspace": "^0.10.1",
+        "@finos/perspective": "^1.0.0-rc.2",
+        "@finos/perspective-viewer": "^1.0.0-rc.2",
+        "@finos/perspective-viewer-d3fc": "^1.0.0-rc.2",
+        "@finos/perspective-viewer-datagrid": "^1.0.0-rc.2",
+        "@finos/perspective-workspace": "^1.0.0-rc.2",
         "react": "16.8.6",
         "react-dom": "16.8.6",
         "superstore-arrow": "^1.0.0"
     },
     "devDependencies": {
-        "@finos/perspective-webpack-plugin": "^0.10.1",
+        "@finos/perspective-webpack-plugin": "^1.0.0-rc.2",
         "@types/react": "^16.8.6",
         "@types/react-dom": "^16.9.4",
         "css-loader": "^6.2.0",
